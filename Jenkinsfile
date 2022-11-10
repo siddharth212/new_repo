@@ -22,13 +22,13 @@ pipeline {
         
         stage('Testing') {
             steps {
-                echo 'Testing the code'
+                echo 'Testing the code ...'
             }
         }
         
         stage('Release') {
             steps {
-                echo 'Releasing the Code'
+                echo 'Releasing the Code..'
             }
         }
     }
