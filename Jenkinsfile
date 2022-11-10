@@ -16,7 +16,7 @@ pipeline {
         
         stage('Deploying') {
             steps {
-                echo 'Deploying the code'
+                echo 'Deploying the codegg'
             }
         }
         
