@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World'
+                echo 'Hello World.......'
             }
         }
         
@@ -16,7 +16,7 @@ pipeline {
         
         stage('Deploying') {
             steps {
-                echo 'Deploying the code'
+                echo 'Deploying the codegg'
             }
         }
         
