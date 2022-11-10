@@ -22,7 +22,7 @@ pipeline {
         
         stage('Testing') {
             steps {
-                echo 'Testing the code'
+                echo 'Testing the code ...'
             }
         }
         
